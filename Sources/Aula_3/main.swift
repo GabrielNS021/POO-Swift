@@ -57,9 +57,6 @@ class PerfilUsuario {
     public var nomeDeExibicao: String
     private var hashDaSenha: String
 
-/* 
-    PODE FAZER ISSO NO CONSTRUTOR?
-*/
     init(nomeDeExibicao: String, hashDaSenha: String) {
         self.nomeDeExibicao = nomeDeExibicao
         self.hashDaSenha = ("\(hashDaSenha)_hashed")
